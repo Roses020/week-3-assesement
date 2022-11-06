@@ -1,9 +1,5 @@
-* {
-	text-align: center;
-}
-
 body {
-  background: rgb(221, 221, 221);
+  background: #ddd;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -12,7 +8,7 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid orange;
 }
 
 ol {
@@ -23,13 +19,13 @@ ol {
 	margin-right: 2em;
 	display: inline;
 }
-ge
+
 a {
 	color: orange;
 }
 
 a:visited {
-	color: skyblue;
+	color: crimson;
 }
 
 
@@ -39,4 +35,11 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+.profileBtns { 
+width: 130px;
+height: 100px;
+margin: 8px;
+background-color: gold;
 }

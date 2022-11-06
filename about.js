@@ -1,5 +1,7 @@
 console.log("hello world");
 
+const picture = document.querySelector('img')
+
 
 
 function handleSubmit(evt) {
@@ -12,9 +14,12 @@ function handleSubmit(evt) {
 let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
- function mousearr(mouseover){
-	
- }
-addEventListener('mouseover', (event) => {
 
-})
+
+ const image = document.querySelector("#catImage")
+
+ function handleMouseover(){
+	alert('thank you for being amazing');
+ }
+ image.addEventListener('mouseover', handleMouseover)
+ 

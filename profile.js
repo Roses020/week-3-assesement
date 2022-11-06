@@ -1,28 +1,21 @@
-//create event listeners that check for a click on each of these buttons.
-
-//If a user clicks on “My Favorite Color”, it should alert the user of your favorite color, and so on.
-
-
+const colorBtn = document.querySelector('#color')
+ const placeBtn = document.querySelector('#place')
+ const ritualBtn = document.querySelector('#ritual')
 
 
-
-
-
-
-
-	
- 
-
-
-function handleSubmit(evt , myfavoritecolor) {
-	evt.preventDefault();
-	let evt = (blue)
+function colorClick() {
+    alert('Blue')
 }
-    
-    alert('blue');
-    addEventListener('mouseover',(evt) => {})
-    
+function placeClick() {
+    alert('tulum mexico')
+}
+function rituallClick() {
+    alert('going to the gym')
+}
 
+placeBtn.addEventListener('click', placeClick)
+ritualBtn.addEventListener('click', rituallClick)
+colorBtn.addEventListener('click', colorClick)
 
 
 
